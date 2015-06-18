@@ -7,7 +7,7 @@ public class Rechnung
 
 	public void add(Artikel artikel)
 	{
-		artikel.add(artikel)
+		this.artikel.add(artikel);
 	}
 
 	public String drucken()
@@ -15,7 +15,7 @@ public class Rechnung
 		return printer.drucken(this);
 	}
 
-	setPrinter(Printing printer)
+	public void setPrinter(Printing printer)
 	{
 		this.printer = printer;
 	}

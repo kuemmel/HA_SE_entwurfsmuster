@@ -11,11 +11,11 @@ public class Artikel
 
 	public float getPreis()
 	{
-		return this.preis:
+		return this.einzelPreis;
 	}
-	
+
 	public String getBezeichnung()
 	{
-		return this.artikelBezeichnung:
+		return this.artikelBezeichnung;
 	}
 }

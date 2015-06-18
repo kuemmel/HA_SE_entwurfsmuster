@@ -9,7 +9,7 @@ public class HtmlPrinter implements Printing
 		for(Artikel article : articles)
 		{
 			//no currency format
-			result += "<tr><td>"article.getBezeichnung()+"</td><td> "+article.getPreis()+"€</td></tr> \n";
+			result += "<tr><td>"+article.getBezeichnung()+"</td><td> "+article.getPreis()+"€</td></tr> \n";
 		}
 		result += "</table>\n";
 		return result;

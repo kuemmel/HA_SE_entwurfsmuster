@@ -1,4 +1,4 @@
 public interface printing
 {
-	public String drucken();
+	public String drucken(Rechnung r);
 }

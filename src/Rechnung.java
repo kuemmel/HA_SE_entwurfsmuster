@@ -12,11 +12,16 @@ public class Rechnung
 
 	public String drucken()
 	{
-		return printer.drucken();
+		return printer.drucken(this);
 	}
 
 	setPrinter(Printing printer)
 	{
 		this.printer = printer;
+	}
+
+	public ArrayList<Artikel> getArticleList()
+	{
+		return artikel;
 	}
 }

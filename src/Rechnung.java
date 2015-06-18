@@ -3,19 +3,19 @@ import java.util.ArrayList;
 public class Rechnung
 {
 	private ArrayList<Artikel> artikel = new ArrayList<>();
-	private Printer printer;
+	private Printing printer;
 
 	public void add(Artikel artikel)
 	{
 		artikel.add(artikel)
 	}
 
-	public drucken()
+	public String drucken()
 	{
-		printer.drucken();
+		return printer.drucken();
 	}
 
-	setPrinter(Printer printer)
+	setPrinter(Printing printer)
 	{
 		this.printer = printer;
 	}
